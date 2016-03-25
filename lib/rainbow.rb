@@ -1,5 +1,6 @@
 require 'rspec/core/formatters/progress_formatter'
 
+# For Rspec >= 2.11, < 3.1
 class Rainbow < ::RSpec::Core::Formatters::ProgressFormatter
   PI_3 = Math::PI / 3
 

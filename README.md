@@ -20,13 +20,19 @@ Or install it yourself as:
 
     $ gem install rspec-rainbow
 
-Then, when running rspec:
+Then running rspec >= 3.1:
+
+    $ rspec --format RainbowFormatter
+
+If you are running rspec < 3.1:
 
     $ rspec --format Rainbow
 
 If you want to use Rainbow by default, add it to your ```.rspec``` file.
 
-    --format Rainbow
+    --format RainbowFormatter
+
+Use `Rainbow` for Rspec < 3.1
 
 ## Contributing
 
